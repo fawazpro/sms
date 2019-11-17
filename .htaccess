@@ -1,5 +1,1 @@
 DirectoryIndex index.html index.php
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.vue.messenger.com.ng [NC]
-RewriteRule ^(.*)$ http://vue.messenger.com.ng/$1 [L,R=301]
